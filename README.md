@@ -33,7 +33,7 @@ Start the virtual machine.
 
 Depending on your host machine and internet connection this can take some time.
 
-While Vagrant is getting your machine up and running you will be asked which network adapter should be used. For example, if you're on Wi-Fi this is probaly option `1`.
+While Vagrant is getting your machine up and running you will be asked which network adapter should be used. For example, if you're on Wi-Fi this is probaly option '1'.
 
 Your machine is now running!
 
@@ -44,14 +44,14 @@ Get access to the machine by using:
 
 After you ssh in to the machine it will share bits of information with you. One bit is the IP address on which your machine is accessible. It's the second one (`eth1`).
 
-Eventhough this address will get you to the running machine it's recommended to add it to your host file for easy access. This is actually required for the Wordpress box since Wordpress is set to run on a specific domain (`wordpress.dev`).
+Eventhough this address will get you to the running machine it's recommended to add it to your host file for easy access. This is actually required for the Wordpress box since Wordpress is set to run on a specific domain (wordpress.dev).
 
 Add these records to your local machine's hosts file. You can do this by running `sudo vim /private/etc/hosts` in a separate shell.
 
 For example:
 
-```192.168.1.43		brthrs.dev```
-```192.168.1.44		wordpress.dev```
+* ```192.168.1.43		brthrs.dev```
+* ```192.168.1.44		wordpress.dev```
 
 You can now access your machine on either of the following domains:
 
@@ -61,6 +61,7 @@ You can now access your machine on either of the following domains:
 ### Working With
 
 **Wordpress**
+
 Make sure your theme files are in your project directory. The vanilla Wordpress theme is still the default one, so make sure to activate yours.
 
 * URL: http://wordpress.dev/wp-admin
