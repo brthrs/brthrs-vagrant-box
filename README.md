@@ -74,6 +74,7 @@ Make sure your theme files are in your project directory. The vanilla Wordpress 
 * Password: `root`
 
 **SFTP to Vagrant**
+
 1. Look for your KEY by using following command: vagrant ssh-config
 2. Copy the KEY and past it in the "Go to folder" in finder
 3. add it the KEY the Transmit
