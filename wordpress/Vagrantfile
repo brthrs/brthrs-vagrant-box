@@ -17,6 +17,6 @@ Vagrant.configure(2) do |config|
   config.vm.network "public_network"
 
   # Synced Folders
-  config.vm.synced_folder "./", "/var/www/wp-content/themes/theme", :owner => "www-data", :mount_options => [ "dmode=775", "fmode=774" ]
+  config.vm.synced_folder "./", "/var/www/html/wp-content/themes/theme", :owner => "www-data", :mount_options => [ "dmode=775", "fmode=774" ]
 
 end
