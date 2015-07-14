@@ -6,8 +6,7 @@ Vagrant.configure(2) do |config|
   # Brthrs Vagrant Box
 
   # Box
-  config.vm.box = "brthrs_vagrant_wp_box"
-  config.vm.box_url = "https://s3-eu-west-1.amazonaws.com/brthrs-vagrant-box/brthrs_vagrant_wp_box.box"
+  config.vm.box = "brthrs/brthrs-vagrant-wp-box"
 
   # Private Network with Hostsupdater (https://github.com/cogitatio/vagrant-hostsupdater)
   # config.vm.network :private_network, ip: "10.0.1.44"
