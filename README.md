@@ -73,5 +73,9 @@ Make sure your theme files are in your project directory. The vanilla Wordpress 
 * Username: `root`
 * Password: `root`
 
+**Adminer**
+
+You can access your Adminer by visiting http://wordpress.dev/adminer.php.
+
 ## More Info
 There is a whole lot more to Vagrant. It's recommended to get yourself familar with it. Detailed information about 'networking', 'synced folders', 'sftp access', 'removing boxes' is available in the documentation https://docs.vagrantup.com/v2/.
