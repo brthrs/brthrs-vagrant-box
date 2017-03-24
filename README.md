@@ -66,12 +66,12 @@ Add these records to your local machine's hosts file by editing `/private/etc/ho
 sudo vim /private/etc/hosts
 ```
 ```
-10.0.1.41    brthrs.dev
+10.0.1.41    vagrant.dev
 10.0.1.42    wordpress.dev
 10.0.1.43    anythingyouwant.really
 ```
 
-You can now access your machine on either of the following domains http://brthrs.dev or http://wordpress.dev.
+You can now access your machine on either of the following domains http://vagrant.dev or http://wordpress.dev.
 
 ### Working with
 
