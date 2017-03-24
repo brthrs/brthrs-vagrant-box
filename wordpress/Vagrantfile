@@ -36,4 +36,11 @@ Vagrant.configure(2) do |config|
   #   vb.memory = "2048"
   # end
 
+  # VirtualBox VM NS_ERROR_FAILURE Fix (0x80004005)
+  # Disable the serial port to avoid VirtualBox from crashing
+  config.vm.provider "virtualbox" do |v|
+    v.customize ["modifyvm", :id, "--uart1", "0x3f8", "4"]
+    v.customize ["modifyvm", :id, "--uartmode1", "disconnected"]
+  end
+
 end
